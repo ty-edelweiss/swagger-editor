@@ -1,6 +1,6 @@
 .PHONY: run stop clean build
 
-SWAGGER_IMAGE := swagger-editor
+SWAGGER_IMAGE := swaggerapi/swagger-editor
 SWAGGER_NAME := swagger-editor-drive
 
 SWAGGER_PORT := 80
