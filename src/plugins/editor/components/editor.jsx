@@ -18,6 +18,7 @@ import "brace/mode/yaml"
 import "brace/theme/tomorrow_night_eighties"
 import "brace/ext/language_tools"
 import "brace/ext/searchbox"
+import "brace/keybinding/vim"
 import "./brace-snippets-yaml"
 
 import "./editor.less"
@@ -310,6 +311,7 @@ export default function makeEditor({ editorPluginsToRun }) {
           fontSize={14}
           useSoftTabs="true"
           wrapEnabled={true}
+          keyboardHandler="ace/keyboard/vim"
           editorProps={{
             "display_indent_guides": true,
             folding: "markbeginandend"
