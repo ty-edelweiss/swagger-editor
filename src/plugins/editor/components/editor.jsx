@@ -311,7 +311,6 @@ export default function makeEditor({ editorPluginsToRun }) {
           fontSize={14}
           useSoftTabs="true"
           wrapEnabled={true}
-          keyboardHandler="ace/keyboard/vim"
           editorProps={{
             "display_indent_guides": true,
             folding: "markbeginandend"
@@ -320,6 +319,7 @@ export default function makeEditor({ editorPluginsToRun }) {
             cursorStyle: "smooth",
             wrapBehavioursEnabled: true
           }}
+          keyboardHandler="vim"
           />
       )
     }
