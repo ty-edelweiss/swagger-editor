@@ -3,7 +3,7 @@
 SWAGGER_IMAGE := swaggerapi/swagger-editor
 SWAGGER_NAME := swagger-editor-drive
 
-SWAGGER_PORT := 80
+SWAGGER_PORT := 9000
 
 run:
 	docker run -d -p ${SWAGGER_PORT}:8080 --name ${SWAGGER_NAME} ${SWAGGER_IMAGE}
