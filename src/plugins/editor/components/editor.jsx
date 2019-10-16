@@ -21,8 +21,6 @@ import "brace/ext/searchbox"
 import "brace/keybinding/vim"
 import "./brace-snippets-yaml"
 
-import "./editor.less"
-
 const NOOP = Function.prototype // Apparently the best way to no-op
 
 export default function makeEditor({ editorPluginsToRun }) {
